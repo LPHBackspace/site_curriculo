@@ -3,7 +3,7 @@
     --blue: rgb(0, 204, 255);;
     --light-blue: #8bebe6;
     --black: #222222;
-    --light-color: #665;
+    --light-color: rgb(86, 85, 102);
     --border: .1rem solid rgba(0,0,0,.1);
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
@@ -27,9 +27,15 @@ html{
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
-
+body{
+    background-color: #fff;
+}
 section{
     padding: 2rem 9%;
+}
+
+a{
+    text-decoration: none;
 }
 
 .heading{
@@ -63,12 +69,42 @@ section{
     background: var(--blue);
 }
 
+
 /*-------------------------------------------*/
 /*--------------Inicio Header----------------*/
 /*-------------------------------------------*/
+.nav{
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 70px;
+    box-shadow:  0 0 1em rgb(56, 187, 248);
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+.nav a{
+    font-size: 15px;
+    padding: 24px 30px;
+    color: rgb(255, 255, 255);
+    
+}
+.nav a:hover{
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+}
+
+
+
+
 .wallpaper{
     width: 100%;
-    height: 45vh;
+    height: 52vh;
     background-image:url("../images/wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -267,11 +303,12 @@ footer p:nth-child(1){
     display: flex;
 }
 .social-icons i{
-    color: #fff;font-size: 24px;
-
+    color: #fff;
+    font-size: 24px;
 }
 .copyright{
     color: var(--blue);
     font-size: 15px;
 
 }
+
