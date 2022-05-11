@@ -15,6 +15,10 @@
     <!-- FontAwesome-->
     <script src="https://kit.fontawesome.com/587541520f.js" crossorigin="anonymous"></script>
 
+    <!-- Ion Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     <!-- CSS -->
     <link rel="stylesheet" href="style/style.css">
 
@@ -24,23 +28,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body class="dark_change">
 
     <div class="nav">
-    
+
        <ul>
            <li><a href="#about">Home</a></li>
            <li><a href="#contact">Contato</a></li>
            <li><a href="#formations">Formações</a></li>
            <li><a href="#tecnology">Tecnologias</a></li>
+           <ion-icon name="moon-outline" class="dark"></ion-icon>
        </ul>
-        
+
     </div>
+
+
 
    <div class="wallpaper"></div>
 
-   
-   <div class="about-container" id="about">
+   <div class="about">
+   <div class="about-container dark_change" id="about">
        <img src="images/foto.jpg">
         <div class="about-text">
             <p>LEANDRO DE OLIVEIRA CUSTÓDIO</p>
@@ -50,9 +57,11 @@
             <p>Confira um pouco no meu trabalho clicando nos links abaixo!</p>
             <a href="https://www.linkedin.com/in/leandro-custodio/"><button class="btn">Linkedin</button></a>
             <a href="https://github.com/LPHBackspace"><button class="btn">Github</button></a>
+            
+            
         </div>
-   </div>
-    
+    </div>
+    </div>
 
 
          <!-- Inicio Formations -->
@@ -70,13 +79,13 @@
 
             <div class="box">
                 <i class="fas fa-solid fa-envelope"></i>
-                <h3>Endereço </h3> 
+                <h3 class="dark_change">Endereço </h3> 
                 <p>Rua Capitão Antônio Joaquim do Carmo “Guaianases”, 225 - São Paulo, SP CEP 08440-510</p>
             </div>
 
             <div class="box">
                 <i class="fas fa-solid fa-at"></i>
-                <h3>E-mail</h3>
+                <h3 class="dark_change">E-mail</h3>
                 <p>leandro.oliveiracustodio02@gmail.com</p>
                 
             </div>
@@ -214,5 +223,7 @@
     </footer>
     
     <script src="javaScript/script.js"></script>
+
+    
 </body>
 </html>
