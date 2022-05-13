@@ -5,8 +5,8 @@ Site desenvolvido com:
 - Html
 - JavaScript
 
-##
-<a href="https://lphbackspace.github.io/Leo-Wheels/leo%20wheels/index.html">Visualizar site</a>
+
+<a href="https://lphbackspace.github.io/site_curriculo/public/index.html">Visualizar site</a>
 
 
 <!-- <img align="right" alt="Leo-Jotaro-GIF" src="#"> -->
