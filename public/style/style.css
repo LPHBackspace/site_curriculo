@@ -367,3 +367,57 @@ footer p:nth-child(1){
 .dark_mode .icons-container .icons:hover h3{
     color: #222222;
 }
+
+
+@media(max-width: 883px){
+    .about-container{
+        height: 400px;
+    }
+    .about-container img{
+        height: 100px;
+        border-radius: 50%;
+        border: 6px solid rgb(245, 245, 245);
+    }
+    
+}
+@media(max-width: 618px){
+    .about-container{
+        width: 80%;
+        height: 580px;
+        display: block;
+    }
+    .about-container img{
+        margin: 0 23%;
+        height: 250px;
+        border-radius: 50%;
+        border: 6px solid rgb(245, 245, 245);
+    }
+    
+    .about-text{
+        width: 100vh;
+    }
+    
+    
+    .about-text p:nth-child(1) {
+        font-size: 23px;
+        margin-left: 4vh;
+    }
+    
+    .about-text p:nth-child(2) {
+        font-size: 18px;
+        margin-left: 4vh;
+    }
+    
+    .about-text p:nth-child(3),
+    .about-text p:nth-child(4),
+    .about-text p:nth-child(5){
+        color: #7e7d7d;
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-left: 4vh;
+    } 
+
+    .btn{
+      margin-left: 4vh;
+    }
+}
