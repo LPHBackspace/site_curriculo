@@ -1,0 +1,69 @@
+
+[
+    {
+        "image": "images/project1.PNG",
+        "name": "Leo Wheels",
+        "description": "Site responsivo feito com HTML, CSS e JavaScript",
+        "link": "https://lphbackspace.github.io/Leo-Wheels/leo%20wheels/index.html"
+    },
+    {
+        "image": "images/project2.PNG",
+        "name": "Relógio do Miranha",
+        "description": "Relógio funcional, desenvolvido com HTML, CSS e JavaScript",
+        "link": "https://lphbackspace.github.io/Relogio-JavaScript/relogio%20JavaScript/index.html"
+    },
+    {
+        "image": "images/project3.PNG",
+        "name": "Web Site Toxix",
+        "description": "Loja virtual desenvolvida com html, css e boostrap",
+        "link": "https://lphbackspace.github.io/Toxix-Site-Bootstrap/projeto%20Toxix%20bootstrap/index.html"
+    },
+    {
+        "image": "images/project4.PNG",
+        "name": "Calculadora",
+        "description": "Calculadora virtual desenvida com JavaScript, HTML e CSS",
+        "link": "https://lphbackspace.github.io/Calculadora-com-JavaScript/calculadora%20Java%20Script/index.html"
+    },
+    {
+        "image": "images/project5.PNG",
+        "name": "Leo Lanches",
+        "description": "Site responsivo feito com HTML, CSS e JavaScript",
+        "link": "https://lphbackspace.github.io/LELEO-LANCHES/Leleo%20Lanches/index.html"
+    },
+    {
+        "image": "images/project6.PNG",
+        "name": "Eu, presidente",
+        "description": "Jogo desenvolvido com Godot",
+        "link": "https://lph-backspace.itch.io/eupresidente2"
+    },
+    {
+        "image": "images/project7.PNG",
+        "name": "Progress Bar Forms",
+        "description": "Desenvolvido com HTML, CSS e JavaScript",
+        "link": "https://lphbackspace.github.io/Registro-Com-Progress-Bar-JavaScript/progress%20bar%20em%20javascript/index.html"
+    },
+    {
+        "image": "images/project8.PNG",
+        "name": "Dom Pratas",
+        "description": "Site e-commerce com banco de dados integrado, desenvolvido com PHP, Mysql, HTML e SCSS",
+        "link": "https://github.com/LPHBackspace/Dom-Pratas"
+    },
+    {
+        "image": "images/project9.PNG",
+        "name": "LPH Store",
+        "description": "E-commerce desenvolvido com HTML, CSS, JavaScript e Bootstrap",
+        "link": "https://lphbackspace.github.io/Projeto-Loja-de-Games/Site%20de%20Games/index.html"
+    },
+    {
+        "image": "images/project10.PNG",
+        "name": "Team LPH Site",
+        "description": "Site desenvolvido com HTML E CSS",
+        "link": "https://lphbackspace.github.io/Site-Pessoal-TEAM-LPH-/lphsite/home.html"
+    },
+    {
+        "image": "images/project11.PNG",
+        "name": "Leo Motors",
+        "description": "Site e-commerce com desenvolvido com HTML e CSS",
+        "link": "https://lphbackspace.github.io/Site-Carros/"
+    }
+]
