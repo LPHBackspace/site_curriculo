@@ -42,7 +42,17 @@ a{
     text-align: center;
     padding-bottom: 2rem;
     font-size: 4.5rem;
+    color: var(--blue);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.heading span{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 4.5rem;
     color: var(--black);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .space{
     margin-top: 150px;
@@ -57,7 +67,7 @@ a{
     display: inline-block;
     margin-top: 1rem;
     border-radius: .5rem;
-    background: var(--light-blue);
+    background-color: var(--blue);
     color: var(--black);
     font-weight: 500;
     font-size: 1.7rem;
@@ -66,7 +76,8 @@ a{
 }
 
 .btn:hover{
-    background: var(--blue);
+    background-color: rgb(27, 124, 251);
+    color: #fff;
 }
 
 
@@ -222,6 +233,7 @@ a{
 .icons-container{
     padding-top: 5rem;
     padding-bottom: 5rem;
+    margin-bottom: 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(24.7rem, 1fr));
     gap: 1.5rem;
@@ -273,6 +285,58 @@ a{
 }
 
 /*-------------------------------------------*/
+/*------------------Projects-----------------*/
+/*-------------------------------------------*/
+
+.projects_section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5rem;
+}
+
+.project{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+}
+.project:hover{
+    background-color: var(--black);
+    color: #fff;
+}
+.project img{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 270px;
+    border-radius: 10px;
+}
+.project h1{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.project p{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.project button{
+    background-color: var(--blue);
+    height: 40px;
+    width: 130px;
+    margin: 10px 85px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.project button:hover{
+    background-color: rgb(27, 124, 251);
+    color: #fff;
+}
+
+/*-------------------------------------------*/
 /*---------------Footer----------------------*/
 /*-------------------------------------------*/
 footer{
@@ -281,10 +345,16 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 7rem;
 }
-footer p:nth-child(1){
+footer span{
+    height: 1px;
+    width: 500px;
+    background-color: var(--black);
+    margin: 20px 0 50px 0;
+}
+footer p{
     font-size: 30px;
-    font-weight: bold;
     color: var(--black);
     line-height: 10px;
     padding-bottom: 20px;
@@ -324,15 +394,25 @@ footer p:nth-child(1){
 .dark{
     color: rgb(255, 255, 255);
     font-size: 20px;
-    margin-left: 50vw;
+    margin-left: 40vw;
     cursor: pointer;
 }
 .dark_mode{
     background-color: #252525;
     color: #fff;
 }
+.dark_mode .heading span{
+    color: var(--blue);
+}
 .dark_mode .about-container{
     background-color: #333;
+}
+
+.dark_mode .project{
+    background-color: #333;
+}
+.dark_mode .project:hover{
+    background-color: rgb(31, 31, 31);
 }
 .dark_mode .about-container p{
     color: #fff;
@@ -368,6 +448,10 @@ footer p:nth-child(1){
     color: #222222;
 }
 
+.dark_mode footer span{
+    background-color: #fff;
+    
+}
 
 @media(max-width: 883px){
     .about-container{
@@ -388,7 +472,7 @@ footer p:nth-child(1){
     }
     .about-container img{
         margin: 0 23%;
-        height: 250px;
+        height: 30vh;
         border-radius: 50%;
         border: 6px solid rgb(245, 245, 245);
     }
@@ -411,9 +495,7 @@ footer p:nth-child(1){
     .about-text p:nth-child(3),
     .about-text p:nth-child(4),
     .about-text p:nth-child(5){
-        color: #7e7d7d;
         font-size: 13px;
-        margin-bottom: 10px;
         margin-left: 4vh;
     } 
 
@@ -421,3 +503,36 @@ footer p:nth-child(1){
       margin-left: 4vh;
     }
 }
+
+@media(max-width: 590px){
+    .about-container{
+        height: 100vw;
+        
+    }
+    .about-container img{
+        margin: 0 28% 5vh 28%;
+        height: 30vh;
+        border-radius: 50%;
+        border: 6px solid rgb(245, 245, 245);
+    }
+    
+    
+    .about-text p:nth-child(1) {
+        font-size: 17px;
+    }
+    
+    .about-text p:nth-child(2) {
+        font-size: 14px;
+        margin-left: 4vh;
+    }
+    
+    .about-text p:nth-child(3),
+    .about-text p:nth-child(4),
+    .about-text p:nth-child(5){
+        font-size: 10px;
+        margin-left: 4vh;
+    } 
+
+}
+
+
