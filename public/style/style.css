@@ -2,9 +2,9 @@
 :root{
     --blue: rgb(0, 204, 255);
     --bluehover: rgb(27, 124, 251);
-    --light-blue: #8bebe6;
     --black: #222222;
     --white: #fff;
+    --lightwhite: rgb(245, 245, 245);
     --light-color: rgb(86, 85, 102);
     --border: .1rem solid rgba(0,0,0,.1);
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -93,7 +93,7 @@ a{
     width: 100%;
     z-index: 1;
     height: 70px;
-    box-shadow:  0 0 1em rgb(56, 187, 248);
+    box-shadow:  0 0 1em var(--blue);
 }
 .nav ul{
     list-style: none;
@@ -143,7 +143,7 @@ a{
 .about-container img{
     height: 250px;
     border-radius: 50%;
-    border: 6px solid rgb(245, 245, 245);
+    border: 6px solid var(--lightwhite);
 }
 
 .about-text{
@@ -196,6 +196,7 @@ a{
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border: var(--border);
+    transition: 0.3s all;
 }
 
 .formations .box-container .box i{
@@ -218,6 +219,7 @@ a{
 
 .formations .box-container .box:hover{
     background: var(--black);
+    transform: translateY(-10px);
 }
 
 .formations .box-container .box:hover h3{
@@ -315,9 +317,11 @@ a{
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     border: var(--border);
+    transition: 0.3s all;
 }
 .project:hover{
     background-color: var(--black);
+    transform: translateY(-10px);
     
 }
 .project:hover h1,
@@ -360,6 +364,7 @@ a{
 /*-------------------------------------------*/
 /*---------------Footer----------------------*/
 /*-------------------------------------------*/
+
 footer{
     height: 300px;
     display: flex;
@@ -488,7 +493,7 @@ footer p{
     .about-container img{
         height: 100px;
         border-radius: 50%;
-        border: 6px solid rgb(245, 245, 245);
+        border: 6px solid var(--lightwhite);
     }
     
 }
@@ -502,7 +507,7 @@ footer p{
         margin: 0 23%;
         height: 30vh;
         border-radius: 50%;
-        border: 6px solid rgb(245, 245, 245);
+        border: 6px solid var(--lightwhite);
     }
     
     .about-text{
@@ -541,7 +546,7 @@ footer p{
         margin: 0 28% 5vh 28%;
         height: 30vh;
         border-radius: 50%;
-        border: 6px solid rgb(245, 245, 245);
+        border: 6px solid var(--lightwhite);
     }
     
     
