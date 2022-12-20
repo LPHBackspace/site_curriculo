@@ -65,5 +65,11 @@
         "name": "Leo Motors",
         "description": "Site e-commerce com desenvolvido com HTML e CSS",
         "link": "https://lphbackspace.github.io/Site-Carros/"
+    }, 
+    {
+        "image": "https://github.com/LPHBackspace/xadrez/blob/main/xadrez_images/xadrez_img.PNG",
+        "name": "Xadrez Javascipt / ESP32",
+        "description": "Jogo de Xadrez desenvolvido com Javascript e integrado com uma placa ESP32",
+        "link": "https://github.com/LPHBackspace/xadrez"
     }
 ]
